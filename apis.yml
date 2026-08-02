@@ -1,8 +1,26 @@
 aid: tensixty-bio
-name: Tensixty Bio
-description: Tensixty Bio is a company surfaced as a portfolio company of general-catalyst, wing-venture-capital
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tensixty-bio.png
+name: TenSixty Bio
+description: TenSixty Bio is an oncology-focused biotechnology company based in Cambridge,
+  Massachusetts, working to revolutionize the treatment of cancer. The company combines
+  biology, machine learning, and high-throughput technologies to build an atlas of antibody
+  targets on the surface of cancer cells, discover novel cancer targets, and develop
+  improved therapeutics from bench to bedside. TenSixty Bio is a privately held research-stage
+  company backed by General Catalyst and Wing Venture Capital, and it does not currently
+  publish a public API, developer portal, or SDKs. This profile was surfaced through the
+  API Evangelist venture-capital portfolio pipeline and enriched with verified public
+  company identity.
 url: https://raw.githubusercontent.com/api-evangelist/tensixty-bio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,11 +30,28 @@ x-backed-by:
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Biotechnology
+- Oncology
+- Cancer
+- Machine Learning
+- Antibody Discovery
+- Therapeutics
+- Life Sciences
 apis: []
+common:
+- type: DomainSecurity
+  url: security/tensixty-bio-domain-security.yml
+- type: Website
+  url: https://www.tensixty.bio
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
