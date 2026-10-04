@@ -53,7 +53,7 @@ tags:
 - Biotechnology
 - Oncology
 - Cancer
-- Machine-Learning
+- Machine Learning
 - Antibody Discovery
 - Therapeutics
 - Life Sciences
@@ -66,6 +66,7 @@ tags_raw:
 - Antibody Discovery
 - Therapeutics
 - Life Sciences
+- Machine-Learning
 apis: []
 common:
 - type: DomainSecurity
